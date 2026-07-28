@@ -6,6 +6,7 @@ Fan Favorites — recommendations based on your favorite movie, found by looking
 
 
 Tech Stack
+
 Python — pandas for data handling, sqlite3 for database access
 SQL — joins, aggregation (GROUP BY, HAVING), subqueries, parameterized queries
 SQLite — lightweight local database, built from the MovieLens CSV files
@@ -13,6 +14,7 @@ Matplotlib — visualizing rating trends by genre
 
 
 How It Works
+
 load_data.py loads the MovieLens CSV files into a local SQLite database (movies.db).
 analysis.py runs a small command-line menu that lets you choose between the two features above.
 When you search for a movie, the tool does a fuzzy title search first (so you don't need to type the exact title/year) and asks you to confirm if there are multiple matches.
@@ -20,6 +22,7 @@ Recommendations are generated using a nested SQL query: first finding everyone w
 
 
 Setup
+
 Download the "ml-latest-small" dataset and place movies.csv and ratings.csv in this project folder.
 Install dependencies:
    pip install pandas matplotlib
