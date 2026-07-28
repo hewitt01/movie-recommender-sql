@@ -1,0 +1,5 @@
+movies.db
+movies.csv
+ratings.csv
+__pycache__/
+*.pyc
